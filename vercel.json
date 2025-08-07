@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "functions": {
+    "api/proxy.js": {
+      "runtime": "nodejs18.x"
+    },
+    "api/universal-proxy.js": {
+      "runtime": "nodejs18.x"
+    },
+    "api/socks5-ws.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/proxy",
+      "dest": "/api/proxy.js"
+    },
+    {
+      "src": "/api/universal-proxy",
+      "dest": "/api/universal-proxy.js"
+    },
+    {
+      "src": "/api/socks5-ws",
+      "dest": "/api/socks5-ws.js"
+    }
+  ]
+}

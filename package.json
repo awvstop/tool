@@ -1,0 +1,26 @@
+{
+  "name": "socks5-proxy",
+  "version": "1.0.0",
+  "description": "A simple SOCKS5 proxy server for Vercel deployment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "net": "^1.0.2",
+    "ws": "^8.14.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "socks5",
+    "proxy",
+    "vercel",
+    "websocket"
+  ],
+  "author": "",
+  "license": "MIT"
+}
